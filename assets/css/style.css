@@ -1,239 +1,371 @@
 @font-face {
-    font-family: "courier";
-    src: url("../fonts/CourierPrime.ttf");
+	font-family: "courier";
+	src: url("../fonts/CourierPrime.ttf");
 }
-.container-fluid{
-    padding: 0;
+.container-fluid {
+	padding: 0;
 }
-h2, h1,h3{
-    text-align: center;
+h2,
+h1,
+h3 {
+	text-align: center;
 }
-h2{
-    margin-bottom: 30px;
+h2 {
+	margin-bottom: 20px;
 }
-section{
-    /*margin-bottom: 50px;*/
+section {
+	margin-bottom: 50px;
 }
-img{
-    width: 100%;
+img {
+	width: 100%;
+}
+hr {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	border: 0;
+	border-top: 3px solid rgb(142, 44, 140);
+	width: 50%;
+}
+.colorR {
+	color: #ae32c9;
+}
+.colorV {
+	color: lightseagreen;
+}
+.colorO {
+	color: orangered;
+}
+.colorB {
+	color: #efd510;
+}
+.colorJ {
+	color: #3a3a3a;
 }
 /****************** header **********************/
-.header{
-    background-image: url("../images/header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.headerFilm {
+	background-image: url("../images/golf-grass.jpg");
+	background-size: cover;
 }
-.logoContainer{
-    background-image:url("../images/backgroundLogo.png");
+.headerFilm h2 {
+	text-transform: uppercase;
+	color: #fff;
 }
-.containerHeader{
-    margin-bottom: 40px;
-    width: 70%;
-    margin-top: 40px;
+.headerContact {
+	background-image: url("../images/daylight.jpg");
+	background-size: cover;
+}
+.header {
+	background-image: url("../images/fondLibre.jpg");
+	background-size: cover;
+}
+.logoContainer {
+	background-image: url("../images/backgroundLogo.png");
+}
+.containerHeader {
+	margin-bottom: 40px;
+	width: 70%;
+	margin-top: 40px;
 }
 .logoContainer img {
-    padding: 25px;
+	padding: 25px;
 }
-.textHeader p{
-    color: #fff;
-    margin-bottom: 0;
+.textHeader p {
+	color: #fff;
+	margin-bottom: 0;
 }
-.textHeaderL1{
-font-size: 33px;
+.textHeaderL1 {
+	font-size: 33px;
 }
-.textHeaderL2{
-    font-size: 18px;
+.textHeaderL2 {
+	font-size: 18px;
 }
-.textHeaderL3{
-    font-size: 20px;
+.textHeaderL3 {
+	font-size: 20px;
 }
-.btnHeader button{
-    margin: 50px 0 ;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    /*background-color: black;*/
+.btnHeader button {
+	margin: 50px 0;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	/*background-color: black;*/
 }
-.textHeader-pageProgramme{
-    margin: 80px 0;
+.textHeader-pageProgramme {
+	margin: 80px 0;
 }
 /****************** nav **********************/
-.active{
-    border-bottom: solid 2px orangered;
+.active {
+	border-bottom: solid 2px orangered;
 }
-.containerNav{
-    border-bottom: solid 1px #FFFFFF;
+.containerNav {
+	border-bottom: solid 1px #ffffff;
 }
-.navbar-nav{
-    margin: auto;
-    font-size: 18px;
-    color: #FFFFFF;
+.navbar-nav {
+	margin: auto;
+	font-size: 18px;
+	color: #ffffff;
 }
 .navbar a {
-    color: #FFFFFF;
+	color: #ffffff;
 }
-.nav-link:hover, .footerNav a:hover{
-    border-bottom: solid 2px lightseagreen;
+.nav-link:hover,
+.footerNav a:hover {
+	border-bottom: solid 2px lightseagreen;
 }
-.navbar-toggler, .navbar-toggler-icon{
-    border-color: white;
+.navbar-toggler,
+.navbar-toggler-icon {
+	border-color: white;
 }
 /****************** page programme **********************/
 /********************************************************/
-.card-columns > .cardCustom{
-    border-radius: 0;
-    border: 0;
-    margin: 0;
+.programmeUnJour {
+	margin-bottom: 40px;
 }
-.card-columns{
-    column-gap: 0;
+.programmeUnJour > div {
+	padding-left: 0;
+	padding-right: 0;
+}
+.jour {
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+.jourDateContainer {
+	width: 85%;
+	margin: auto;
+	height: 100%;
+}
+
+.jour1 .jourDate {
+	color: #ae32c9;
+	border-top: solid 2px #ae32c9;
+	border-bottom: solid 2px #ae32c9;
+	height: 100%;
+}
+.jour2 .jourDate {
+	color: lightseagreen;
+	border-top: solid 2px lightseagreen;
+	border-bottom: solid 2px lightseagreen;
+	height: 100%;
+}
+.jour3 .jourDate {
+	color: orangered;
+	border-top: solid 2px orangered;
+	border-bottom: solid 2px orangered;
+	height: 100%;
+}
+.jour4 .jourDate {
+	color: #efd510;
+	border-top: solid 2px #efd510;
+	border-bottom: solid 2px #efd510;
+	height: 100%;
+}
+.jourDate h2 {
+	margin-top: 22px;
+	text-transform: uppercase;
+	font-size: 27px;
+}
+.jour1:hover {
+	background-color: #ae32c9;
+}
+.jour1:hover .jourDate,
+.jour2:hover .jourDate,
+.jour3:hover .jourDate,
+.jour4:hover .jourDate {
+	border-top: solid 2px #fff;
+	border-bottom: solid 2px #fff;
+	color: #fff;
+}
+.jour2:hover {
+	background-color: lightseagreen;
+	color: #fff;
+}
+.jour3:hover {
+	background-color: orangered;
+	color: #fff;
+}
+.jour4:hover {
+	background-color: #efd510;
+	color: #fff;
+}
+.film {
+	height: 251px;
+	overflow: hidden;
 }
 /****************** actu **********************/
-
-.actualite{
-    border-bottom: solid 1px gray;
-    border-left: solid 1px gray;
-    border-right: solid 1px gray;
-    text-align: center;
+.actualite {
+	border-bottom: solid 1px gray;
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+	text-align: center;
 }
-.actualite:hover{
-    border: solid 3px #ae32c9;
-    text-align: center;
+.actualite:hover {
+	border: solid 3px #ae32c9;
+	text-align: center;
 }
 
-
-.programme{
-    line-height: 0;
+.programme {
+	line-height: 0;
 }
 /****************** les réalisateurs **********************/
-.realisateur-img{
-    border-radius: 50%;
-    padding: 50px 50px 10px 50px;
+.realisateur hr {
+	border-top: 3px solid orangered;
 }
-.realisateur-texte{
-    text-align: center;
+.realisateur-img {
+	border-radius: 50%;
+	padding: 50px 50px 10px 50px;
+}
+.realisateur-texte {
+	text-align: center;
+}
+/****************** qui sommes nous **********************/
+.nous hr {
+	border-top: 3px solid lightseagreen;
+}
+.nous {
+	background-image: url("../images/film_festival.jpg");
+	background-size: cover;
+}
+.nous h2 {
+	color: #fff;
+	padding-top: 30px;
+}
+.nous p {
+	color: #fff;
+	padding-bottom: 50px;
 }
 /*************** programme hover effect *****************/
 /********************************************************/
 .hovereffect {
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
 }
 
 .hovereffect .overlay {
-    position: absolute;
-    overflow: hidden;
-    width: 80%;
-    height: 80%;
-    left: 10%;
-    top: 10%;
-    border-bottom: 1px solid #FFF;
-    border-top: 1px solid #FFF;
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: scale(0,1);
-    -ms-transform: scale(0,1);
-    transform: scale(0,1);
+	position: absolute;
+	overflow: hidden;
+	width: 80%;
+	height: 80%;
+	left: 10%;
+	top: 10%;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0, 1);
+	-ms-transform: scale(0, 1);
+	transform: scale(0, 1);
 }
 
 .hovereffect:hover .overlay {
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
 }
 
 .hovereffect img {
-    display: block;
-    position: relative;
-    -webkit-transition: all 0.35s;
-    transition: all 0.35s;
+	display: block;
+	position: relative;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
 }
 
 .hovereffect:hover img {
-    /*filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');*/
-    filter: brightness(0.6);
-    -webkit-filter: brightness(0.6);
+	/*filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');*/
+	filter: brightness(0.6);
+	-webkit-filter: brightness(0.6);
 }
 
 .hovereffect h2 {
-    margin: 0;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    font-size: 20px;
-    background-color: transparent;
-    color: #FFF;
-    padding: 0.5em 0;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: translate3d(0,-100%,0);
-    transform: translate3d(0,-100%,0);
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+	background-color: transparent;
+	color: #fff;
+	padding: 0.5em 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
 }
 
-.hovereffect a, .hovereffect p {
-    color: #FFF;
-    padding: 2em 0;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: translate3d(0,100%,0);
-    transform: translate3d(0,100%,0);
+.hovereffect a,
+.hovereffect p {
+	color: #fff;
+	padding: 2em 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
 }
 
-.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+.hovereffect:hover a,
+.hovereffect:hover p,
+.hovereffect:hover h2 {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
-footer{
-    background-color: #0c1019;
+footer {
+	background-color: #0c1019;
 }
-.footerLogo{
-    padding: 60px 100px 40px 100px;
+.navbar-nav {
+	display: flex;
+	flex-direction: column;
+}
+.footerLogo {
+	padding: 20px 0;
 }
 .footerNav {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px
-}
-.footerNav li {
-    display: inline;
-}
-.footerNav ul {
-    flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
 }
 
 .footerNav a {
-   color: white;
-    padding: 10px;
+	color: white;
+	padding: 10px;
+}
+
+.btn-primary {
+	background-color: lightseagreen;
+	border-color: lightseagreen;
+}
+.btn-primary:hover {
+	background-color: #efd510;
+	border-color: #efd510;
 }
 @media screen and (min-width: 450px) {
-    .containerHeader {
-        margin-bottom: 80px;
-        width: 40%;
-        margin-top: 80px;
-    }
+	.containerHeader {
+		margin-bottom: 80px;
+		width: 40%;
+		margin-top: 80px;
+	}
 }
 
 @media screen and (min-width: 768px) {
-    .containerHeader {
-        width: 28%;
-    }
+	.containerHeader {
+		width: 28%;
+	}
+	.navbar-nav {
+		flex-direction: row;
+	}
 }
 
 @media screen and (min-width: 1440px) {
-    .containerHeader {
-        width: 16%;
-    }
+	.containerHeader {
+		width: 16%;
+	}
 }
