@@ -43,7 +43,7 @@ hr {
 }
 /****************** header **********************/
 .headerFilm {
-	background-image: url("../images/golf-grass.jpg");
+	background-image: url("../images/Hfilm.jpg");
 	background-size: cover;
 }
 .headerFilm h2 {
@@ -51,7 +51,11 @@ hr {
 	color: #fff;
 }
 .headerContact {
-	background-image: url("../images/daylight.jpg");
+	background-image: url("../images/Hcontactt.jpg");
+	background-size: cover;
+}
+.headerProgramme {
+	background-image: url("../images/Hprogramme.jpg");
 	background-size: cover;
 }
 .header {
@@ -221,7 +225,7 @@ hr {
 	border-top: 3px solid lightseagreen;
 }
 .nous {
-	background-image: url("../images/film_festival.jpg");
+	background-image: url("../images/Hnous.jpg");
 	background-size: cover;
 }
 .nous h2 {
