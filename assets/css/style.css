@@ -51,7 +51,7 @@ hr {
 	font-weight: 600;
 }
 .colorV {
-	color: #1fd6b1;
+	color: #3c917d;
 	font-weight: 600;
 }
 .colorO {
@@ -153,7 +153,7 @@ height: 100%;
 }
 .nav-link:hover,
 .footerNav a:hover {
-	border-bottom: solid 2px #1fd6b1;
+	border-bottom: solid 2px #3c917d;
 }
 .navbar-toggler,
 .navbar-toggler-icon {
@@ -185,9 +185,9 @@ height: 100%;
 	height: 100%;
 }
 .jour2 .jourDate {
-	color: #1fd6b1;
-	border-top: solid 2px #1fd6b1;
-	border-bottom: solid 2px #1fd6b1;
+	color: #3c917d;
+	border-top: solid 2px #3c917d;
+	border-bottom: solid 2px #3c917d;
 	height: 100%;
 }
 .jour3 .jourDate {
@@ -219,7 +219,7 @@ height: 100%;
 	color: #fff;
 }
 .jour2:hover {
-	background-color: #1fd6b1;
+	background-color: #3c917d;
 	color: #fff;
 }
 .jour3:hover {
@@ -260,8 +260,8 @@ height: 100%;
 	border-top: solid 3px #ae32c9;
 }
 .jourV{
-	border-bottom: solid 2px #1fd6b1;
-	border-top: solid 3px #1fd6b1;
+	border-bottom: solid 2px #3c917d;
+	border-top: solid 3px #3c917d;
 }
 .jourO{
 	border-bottom: solid 2px #f56337;
@@ -273,14 +273,14 @@ height: 100%;
 }
 /****************** actu **********************/
 #actualites hr {
-	border-top: 3px solid #1fd6b1;
+	border-top: 3px solid #3c917d;
 }
 .actualite {
 	text-align: center;
 	margin-bottom: 20px;
 }
 .actualite:hover {
-	border: solid 3px #1fd6b1;
+	border: solid 3px #3c917d;
 	text-align: center;
 }
 .actualite:hover .container-actualite-text{
@@ -288,8 +288,8 @@ height: 100%;
 
 }
 .container-actualite-text{
-	border-top:solid 3px #1fd6b1;
-	border-bottom:solid 3px #1fd6b1;
+	border-top:solid 3px #3c917d;
+	border-bottom:solid 3px #3c917d;
 }
 .container-actualite-img{
 	height: 300px;
@@ -441,8 +441,8 @@ footer {
 	border-color: #e0af28;
 }
 .btn-primary:hover {
-	background-color: #1fd6b1;
-	border-color: #1fd6b1;
+	background-color: #3c917d;
+	border-color: #3c917d;
 }
 /***************** médias query *********************/
 @media screen and (min-width: 450px) {
