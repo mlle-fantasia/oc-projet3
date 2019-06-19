@@ -237,9 +237,39 @@ height: 100%;
 .programme {
 	line-height: 0;
 }
-.film button{
+.programmeUnJour button{
 	border:0;
 	padding: 0;
+}
+.effectMobile{
+	text-align: center;
+	width: 100%;
+	padding: 10px 10px 20px 10px;
+	margin-bottom: 20px;
+}
+.effectMobile p{
+	 margin-bottom: 35px;
+	 font-size: 20px;
+ }
+.effectMobile a{
+	font-size: 25px;
+	color: #000;
+}
+.jourR{
+	border-bottom: solid 2px #ae32c9;
+	border-top: solid 3px #ae32c9;
+}
+.jourV{
+	border-bottom: solid 2px #1fd6b1;
+	border-top: solid 3px #1fd6b1;
+}
+.jourO{
+	border-bottom: solid 2px #f56337;
+	border-top: solid 3px #f56337;
+}
+.jourJ{
+	border-bottom: solid 2px #e0af28;
+	border-top: solid 3px #e0af28;
 }
 /****************** actu **********************/
 #actualites hr {
@@ -432,6 +462,9 @@ footer {
 	}
 	.container-textHeader p {
 		padding-left: 160px;
+	}
+	.effectMobile{
+		display: none;
 	}
 }
 
