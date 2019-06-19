@@ -48,18 +48,23 @@ hr {
 }
 .colorR {
 	color: #ae32c9;
+	font-weight: 600;
 }
 .colorV {
-	color: lightseagreen;
+	color: #1fd6b1;
+	font-weight: 600;
 }
 .colorO {
-	color: orangered;
+	color: #f56337;
+	font-weight: 600;
 }
 .colorJ {
-	color: #efd510;
+	color: #e0af28;
+	font-weight: 600;
 }
 .colorB {
-	color: #3a3a3a;
+	color: #343e56;
+	font-weight: 600;
 }
 .textHeader{
 	color: white;
@@ -130,7 +135,7 @@ height: 100%;
 }
 /****************** nav **********************/
 .active {
-	border-bottom: solid 2px orangered;
+	border-bottom: solid 2px #f56337;
 }
 .logoNavbar{
 	width: 100px
@@ -148,7 +153,7 @@ height: 100%;
 }
 .nav-link:hover,
 .footerNav a:hover {
-	border-bottom: solid 2px lightseagreen;
+	border-bottom: solid 2px #1fd6b1;
 }
 .navbar-toggler,
 .navbar-toggler-icon {
@@ -180,21 +185,21 @@ height: 100%;
 	height: 100%;
 }
 .jour2 .jourDate {
-	color: lightseagreen;
-	border-top: solid 2px lightseagreen;
-	border-bottom: solid 2px lightseagreen;
+	color: #1fd6b1;
+	border-top: solid 2px #1fd6b1;
+	border-bottom: solid 2px #1fd6b1;
 	height: 100%;
 }
 .jour3 .jourDate {
-	color: orangered;
-	border-top: solid 2px orangered;
-	border-bottom: solid 2px orangered;
+	color: #f56337;
+	border-top: solid 2px #f56337;
+	border-bottom: solid 2px #f56337;
 	height: 100%;
 }
 .jour4 .jourDate {
-	color: #efd510;
-	border-top: solid 2px #efd510;
-	border-bottom: solid 2px #efd510;
+	color: #e0af28;
+	border-top: solid 2px #e0af28;
+	border-bottom: solid 2px #e0af28;
 	height: 100%;
 }
 .jourDate h2 {
@@ -214,15 +219,15 @@ height: 100%;
 	color: #fff;
 }
 .jour2:hover {
-	background-color: lightseagreen;
+	background-color: #1fd6b1;
 	color: #fff;
 }
 .jour3:hover {
-	background-color: orangered;
+	background-color: #f56337;
 	color: #fff;
 }
 .jour4:hover {
-	background-color: #efd510;
+	background-color: #e0af28;
 	color: #fff;
 }
 .film {
@@ -232,16 +237,20 @@ height: 100%;
 .programme {
 	line-height: 0;
 }
+.film button{
+	border:0;
+	padding: 0;
+}
 /****************** actu **********************/
 #actualites hr {
-	border-top: 3px solid lightseagreen;
+	border-top: 3px solid #1fd6b1;
 }
 .actualite {
 	text-align: center;
 	margin-bottom: 20px;
 }
 .actualite:hover {
-	border: solid 3px lightseagreen;
+	border: solid 3px #1fd6b1;
 	text-align: center;
 }
 .actualite:hover .container-actualite-text{
@@ -249,8 +258,8 @@ height: 100%;
 
 }
 .container-actualite-text{
-	border-top:solid 3px lightseagreen;
-	border-bottom:solid 3px lightseagreen;
+	border-top:solid 3px #1fd6b1;
+	border-bottom:solid 3px #1fd6b1;
 }
 .container-actualite-img{
 	height: 300px;
@@ -261,7 +270,7 @@ height: 100%;
 }
 /****************** les réalisateurs **********************/
 .realisateur hr {
-	border-top: 3px solid orangered;
+	border-top: 3px solid #f56337;
 }
 .realisateur-img {
 	border-radius: 50%;
@@ -288,7 +297,7 @@ height: 100%;
 }
 /****************** page résa **********************/
 .leFilm {
-	background-color: orangered;
+	background-color: #f56337;
 	color: #fff;
 }
 /*************** programme hover effect *****************/
@@ -377,7 +386,7 @@ height: 100%;
 	transform: translate3d(0, 0, 0);
 }
 footer {
-	background-color: #0c1019;
+	background-color: #202635;
 }
 .navbar-nav {
 	display: flex;
@@ -398,12 +407,12 @@ footer {
 }
 
 .btn-primary {
-	background-color: lightseagreen;
-	border-color: lightseagreen;
+	background-color: #e0af28;
+	border-color: #e0af28;
 }
 .btn-primary:hover {
-	background-color: orangered;
-	border-color: orangered;
+	background-color: #1fd6b1;
+	border-color: #1fd6b1;
 }
 /***************** médias query *********************/
 @media screen and (min-width: 450px) {
