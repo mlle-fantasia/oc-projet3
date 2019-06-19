@@ -1,23 +1,34 @@
 @font-face {
-	font-family: "courier";
-	src: url("../fonts/CourierPrime.ttf");
-	font-family: "openDis";
-	src: url("../fonts/OpenDyslexic-Regular.otf");
-	font-family: "universal";
-	src: url("../fonts/Universal Serif.ttf");
+	/*font-family: "courier";*/
+	/*src: url("../fonts/CourierPrime.ttf");*/
+	/*font-family: "openDis";*/
+	/*src: url("../fonts/OpenDyslexic-Regular.otf");*/
+	/*font-family: "universal";*/
+	/*src: url("../fonts/Universal Serif.ttf");*/
+	font-family: "just";
+	src: url("../fonts/JustOldFashion.ttf");
+	/*font-family: "gaston";*/
+	/*src: url("../fonts/Ganton.otf");*/
+
+}
+@font-face {
+	font-family: "junction";
+	src: url("../fonts/Junction_02.ttf");
 }
 
 .container-fluid {
 	padding: 0;
 }
+
 h2,
 h1,
 h3 {
 	text-align: center;
-	font-family: "universal";
+	font-family: "just";
 }
 h2 {
 	margin-bottom: 20px;
+	font-size: 40px;
 }
 section {
 	margin-bottom: 50px;
@@ -29,8 +40,11 @@ hr {
 	margin-top: 0;
 	margin-bottom: 2rem;
 	border: 0;
-	border-top: 3px solid rgb(142, 44, 140);
+	border-top: 3px solid black;
 	width: 50%;
+}
+.fontBold{
+	font-family: "junction";
 }
 .colorR {
 	color: #ae32c9;
@@ -47,6 +61,12 @@ hr {
 .colorB {
 	color: #3a3a3a;
 }
+.textHeader{
+	color: white;
+}
+.textHeader p{
+	margin: 0;
+}
 /****************** headers **********************/
 .headerFilm {
 	background-image: url("../images/Hfilm.jpg");
@@ -57,7 +77,7 @@ hr {
 	color: #fff;
 }
 .headerReservation {
-	background-image: url("../images/Hreservation.jpg");
+	background-image: url("../images/HResa.jpg");
 	background-size: cover;
 }
 .headerContact {
@@ -72,44 +92,48 @@ hr {
 .header {
 	background-image: url("../images/fondLibre.jpg");
 	background-size: cover;
+	height: 90vh;
 }
-.logoContainer {
-	background-image: url("../images/backgroundLogo.png");
+.header .container-fluid{
+	height: 100%;
 }
-.containerHeader {
-	margin-bottom: 40px;
-	width: 70%;
-	margin-top: 40px;
+.container-textHeader{
+height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.logoContainer img {
-	padding: 25px;
+.logoHeaderHome{
+	width: 80%;
 }
-.textHeader p {
+
+.container-textHeader p {
 	color: #fff;
 	margin-bottom: 0;
-}
-.textHeaderL1 {
-	font-size: 33px;
+	text-align: left;
+	padding-left: 24px;
 }
 .textHeaderL2 {
 	font-size: 18px;
+	padding-top: 10px;
 }
 .textHeaderL3 {
 	font-size: 20px;
 }
-.btnHeader button {
-	margin: 50px 0;
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	/*background-color: black;*/
+.textHeader-paragraphe{
+	margin-bottom: 70px;
 }
+
 .textHeader-pageProgramme {
 	margin: 80px 0;
 }
 /****************** nav **********************/
 .active {
 	border-bottom: solid 2px orangered;
+}
+.logoNavbar{
+	width: 100px
 }
 .containerNav {
 	border-bottom: solid 1px #ffffff;
@@ -205,20 +229,35 @@ hr {
 	height: 251px;
 	overflow: hidden;
 }
-/****************** actu **********************/
-.actualite {
-	border-bottom: solid 1px gray;
-	border-left: solid 1px gray;
-	border-right: solid 1px gray;
-	text-align: center;
-}
-.actualite:hover {
-	border: solid 3px #ae32c9;
-	text-align: center;
-}
-
 .programme {
 	line-height: 0;
+}
+/****************** actu **********************/
+#actualites hr {
+	border-top: 3px solid lightseagreen;
+}
+.actualite {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.actualite:hover {
+	border: solid 3px lightseagreen;
+	text-align: center;
+}
+.actualite:hover .container-actualite-text{
+	background-color:#20b2aa6b;
+
+}
+.container-actualite-text{
+	border-top:solid 3px lightseagreen;
+	border-bottom:solid 3px lightseagreen;
+}
+.container-actualite-img{
+	height: 300px;
+}
+.container-actualite-img img{
+	max-width: 100%;
+	min-height: 100%;
 }
 /****************** les réalisateurs **********************/
 .realisateur hr {
@@ -233,7 +272,7 @@ hr {
 }
 /****************** qui sommes nous **********************/
 .nous hr {
-	border-top: 3px solid lightseagreen;
+	border-top: 3px solid #ae32c9;
 }
 .nous {
 	background-image: url("../images/Hnous.jpg");
@@ -363,32 +402,30 @@ footer {
 	border-color: lightseagreen;
 }
 .btn-primary:hover {
-	background-color: #efd510;
-	border-color: #efd510;
+	background-color: orangered;
+	border-color: orangered;
 }
 /***************** médias query *********************/
 @media screen and (min-width: 450px) {
-	.containerHeader {
-		margin-bottom: 80px;
-		width: 40%;
-		margin-top: 80px;
-	}
+
 }
 
 @media screen and (min-width: 768px) {
-	.containerHeader {
-		width: 28%;
-	}
+
 	.navbar-nav {
 		flex-direction: row;
 	}
 	.effectMobile {
 		display: none;
 	}
+	.logoHeaderHome{
+		width: 40%;
+	}
+	.container-textHeader p {
+		padding-left: 160px;
+	}
 }
 
 @media screen and (min-width: 1440px) {
-	.containerHeader {
-		width: 16%;
-	}
+
 }
