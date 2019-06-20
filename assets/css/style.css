@@ -1,97 +1,24 @@
-@font-face {
-	/*font-family: "courier";*/
-	/*src: url("../fonts/CourierPrime.ttf");*/
-	/*font-family: "openDis";*/
-	/*src: url("../fonts/OpenDyslexic-Regular.otf");*/
-	/*font-family: "universal";*/
-	/*src: url("../fonts/Universal Serif.ttf");*/
-	font-family: "just";
-	src: url("../fonts/JustOldFashion.ttf");
-	/*font-family: "gaston";*/
-	/*src: url("../fonts/Ganton.otf");*/
-}
-@font-face {
-	font-family: "junction";
-	src: url("../fonts/Junction_02.ttf");
-}
+@import url("globalStyle.css");
+@import url("programmeStyle.css");
 
-.container-fluid {
-	padding: 0;
-}
-
-h2,
-h1,
-h3 {
-	text-align: center;
-	font-family: "just";
-}
-h2 {
-	margin-bottom: 20px;
-	font-size: 40px;
-}
-section {
-	margin-bottom: 50px;
-}
-img {
-	width: 100%;
-}
-hr {
-	margin-top: 0;
-	margin-bottom: 2rem;
-	border: 0;
-	border-top: 3px solid black;
-	width: 50%;
-}
-.text-justify {
-	text-align: justify;
-}
-.fontBold {
-	font-family: "junction";
-}
-.colorR {
-	color: #ae32c9;
-	font-weight: 600;
-}
-.colorV {
-	color: #3c917d;
-	font-weight: 600;
-}
-.colorO {
-	color: #f56337;
-	font-weight: 600;
-}
-.colorJ {
-	color: #e0af28;
-	font-weight: 600;
-}
-.colorB {
-	color: #343e56;
-	font-weight: 600;
-}
-.textHeader {
-	color: white;
-}
-.textHeader p {
-	margin: 0;
-}
 /****************** headers **********************/
-.headerFilm {
+.header-film {
 	background-image: url("../images/Hfilm.jpg");
 	background-size: cover;
 }
-.headerFilm h2 {
+.header-film h2 {
 	text-transform: uppercase;
 	color: #fff;
 }
-.headerReservation {
+.header-reservation {
 	background-image: url("../images/HResa.jpg");
 	background-size: cover;
 }
-.headerContact {
+.header-contact {
 	background-image: url("../images/Hcontactt.jpg");
 	background-size: cover;
 }
-.headerProgramme {
+.header-programme {
 	background-image: url("../images/Hprogramme.jpg");
 	background-size: cover;
 }
@@ -104,45 +31,45 @@ hr {
 .header .container-fluid {
 	height: 100%;
 }
-.container-textHeader {
+.container-text-header {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.logoHeaderHome {
+.logo-header-home {
 	width: 80%;
 }
 
-.container-textHeader p {
+.container-text-header p {
 	color: #fff;
 	margin-bottom: 0;
 	text-align: left;
 	padding-left: 24px;
 }
-.textHeaderL2 {
+.text-headerL2 {
 	font-size: 18px;
 	padding-top: 10px;
 }
-.textHeaderL3 {
+.text-headerL3 {
 	font-size: 20px;
 }
-.textHeader-paragraphe {
+.text-header-paragraphe {
 	margin-bottom: 70px;
 }
 
-.textHeader-pageProgramme {
+.text-header-pageProgramme {
 	margin: 80px 0;
 }
 /****************** nav **********************/
 .active {
 	border-bottom: solid 2px #f56337;
 }
-.logoNavbar {
+.logo-navbar {
 	width: 100px;
 }
-.containerNav {
+.container-nav {
 	border-bottom: solid 1px #ffffff;
 }
 .navbar-nav {
@@ -150,125 +77,20 @@ hr {
 	font-size: 18px;
 	color: #ffffff;
 }
+.navbar-nav .nav-link {
+	padding-right: 10px;
+	padding-left: 10px;
+}
 .navbar a {
 	color: #ffffff;
 }
 .nav-link:hover,
-.footerNav a:hover {
+.footer-nav a:hover {
 	border-bottom: solid 2px #3c917d;
 }
 .navbar-toggler,
 .navbar-toggler-icon {
 	border-color: white;
-}
-/****************** page programme **********************/
-/********************************************************/
-.programmeUnJour {
-	margin-bottom: 40px;
-}
-.programmeUnJour > div {
-	padding-left: 0;
-	padding-right: 0;
-}
-.jour {
-	padding-top: 23px;
-	padding-bottom: 23px;
-}
-.jourDateContainer {
-	width: 85%;
-	margin: auto;
-	height: 100%;
-}
-
-.jour1 .jourDate {
-	color: #ae32c9;
-	border-top: solid 2px #ae32c9;
-	border-bottom: solid 2px #ae32c9;
-	height: 100%;
-}
-.jour2 .jourDate {
-	color: #3c917d;
-	border-top: solid 2px #3c917d;
-	border-bottom: solid 2px #3c917d;
-	height: 100%;
-}
-.jour3 .jourDate {
-	color: #f56337;
-	border-top: solid 2px #f56337;
-	border-bottom: solid 2px #f56337;
-	height: 100%;
-}
-.jour4 .jourDate {
-	color: #e0af28;
-	border-top: solid 2px #e0af28;
-	border-bottom: solid 2px #e0af28;
-	height: 100%;
-}
-.jourDate h2 {
-	margin-top: 22px;
-	text-transform: uppercase;
-	font-size: 27px;
-}
-.row-jour1:hover .jour1 {
-	background-color: #ae32c9;
-}
-.row-jour1:hover .jour1 .jourDate,
-.row-jour2:hover .jour2 .jourDate,
-.row-jour3:hover .jour3 .jourDate,
-.row-jour4:hover .jour4 .jourDate {
-	border-top: solid 2px #fff;
-	border-bottom: solid 2px #fff;
-	color: #fff;
-}
-.row-jour2:hover .jour2 {
-	background-color: #3c917d;
-}
-.row-jour3:hover .jour3 {
-	background-color: #f56337;
-}
-.row-jour4:hover .jour4 {
-	background-color: #e0af28;
-}
-.film {
-	height: 251px;
-	overflow: hidden;
-}
-.programme {
-	line-height: 0;
-}
-.programmeUnJour button {
-	border: 0;
-	padding: 0;
-}
-.effectMobile {
-	text-align: center;
-	width: 100%;
-	padding: 10px 10px 20px 10px;
-	margin-bottom: 20px;
-}
-.effectMobile p {
-	margin-bottom: 35px;
-	font-size: 20px;
-}
-.effectMobile a {
-	font-size: 25px;
-	color: #000;
-}
-.jourR {
-	border-bottom: solid 2px #ae32c9;
-	border-top: solid 3px #ae32c9;
-}
-.jourV {
-	border-bottom: solid 2px #3c917d;
-	border-top: solid 3px #3c917d;
-}
-.jourO {
-	border-bottom: solid 2px #f56337;
-	border-top: solid 3px #f56337;
-}
-.jourJ {
-	border-bottom: solid 2px #e0af28;
-	border-top: solid 3px #e0af28;
 }
 /****************** actu **********************/
 #actualites hr {
@@ -299,12 +121,10 @@ hr {
 	-o-transition: background-color 0.5s ease-out;
 	transition: background-color 0.5s ease-out;
 }
-.container-actualite-img {
-	height: 300px;
-}
+
 .container-actualite-img img {
 	max-width: 100%;
-	min-height: 100%;
+	max-height: 100%;
 }
 /****************** les réalisateurs **********************/
 .realisateur hr {
@@ -312,7 +132,8 @@ hr {
 }
 .realisateur-img {
 	border-radius: 50%;
-	padding: 50px 50px 10px 50px;
+	padding: 10px 10px 10px 40px;
+	width: 80%;
 }
 .realisateur-texte {
 	text-align: center;
@@ -349,93 +170,7 @@ hr {
 	background-color: #f56337;
 	color: #fff;
 }
-/****************** page un film **********************/
-
-/*************** programme hover effect *****************/
-/********************************************************/
-.hovereffect {
-	width: 100%;
-	height: 100%;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	text-align: center;
-	cursor: default;
-}
-
-.hovereffect .overlay {
-	position: absolute;
-	overflow: hidden;
-	width: 80%;
-	height: 80%;
-	left: 10%;
-	top: 10%;
-	border-bottom: 1px solid #fff;
-	border-top: 1px solid #fff;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(0, 1);
-	-ms-transform: scale(0, 1);
-	transform: scale(0, 1);
-}
-
-.hovereffect:hover .overlay {
-	opacity: 1;
-	filter: alpha(opacity=100);
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-}
-
-.hovereffect img {
-	display: block;
-	position: relative;
-	-webkit-transition: all 0.35s;
-	transition: all 0.35s;
-}
-
-.hovereffect:hover img {
-	filter: brightness(0.6);
-	-webkit-filter: brightness(0.6);
-}
-
-.hovereffect h2 {
-	margin: 0;
-	text-transform: uppercase;
-	text-align: center;
-	position: relative;
-	font-size: 20px;
-	background-color: transparent;
-	color: #fff;
-	padding: 0.5em 0;
-	opacity: 0;
-	filter: alpha(opacity=0);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0, -100%, 0);
-	transform: translate3d(0, -100%, 0);
-}
-
-.hovereffect a,
-.hovereffect p {
-	color: #fff;
-	padding: 2em 0;
-	opacity: 0;
-	filter: alpha(opacity=0);
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0, 100%, 0);
-	transform: translate3d(0, 100%, 0);
-}
-
-.hovereffect:hover a,
-.hovereffect:hover p,
-.hovereffect:hover h2 {
-	opacity: 1;
-	filter: alpha(opacity=100);
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-}
+/****************** footer **********************/
 footer {
 	background-color: #202635;
 }
@@ -443,49 +178,46 @@ footer {
 	display: flex;
 	flex-direction: column;
 }
-.footerLogo {
+.footer-logo {
 	padding: 20px 0;
 }
-.footerNav {
+.footer-nav {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
 }
 
-.footerNav a {
+.footer-nav a {
 	color: white;
-	padding: 10px;
-}
-
-.btn-primary {
-	background-color: #e0af28;
-	border-color: #e0af28;
-}
-.btn-primary:hover {
-	background-color: #3c917d;
-	border-color: #3c917d;
+	padding: 0px 10px;
 }
 /***************** médias query *********************/
-@media screen and (min-width: 450px) {
-}
 
+@media screen and (min-width: 450px) {
+	.realisateur-img {
+		width: 50%;
+	}
+}
 @media screen and (min-width: 768px) {
 	.navbar-nav {
 		flex-direction: row;
 	}
-	.effectMobile {
+	.effect-mobile {
 		display: none;
 	}
-	.logoHeaderHome {
+	.logo-header-home {
 		width: 40%;
 	}
-	.container-textHeader p {
+	.container-text-header p {
 		padding-left: 160px;
 	}
-	.effectMobile {
+	.effect-mobile {
 		display: none;
 	}
-}
-
-@media screen and (min-width: 1440px) {
+	.realisateur-img {
+		width: 100%;
+	}
+	.footer-nav a {
+		padding: 10px;
+	}
 }

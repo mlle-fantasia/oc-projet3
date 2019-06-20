@@ -1,0 +1,87 @@
+@font-face {
+	/*font-family: "courier";*/
+	/*src: url("../fonts/CourierPrime.ttf");*/
+	/*font-family: "openDis";*/
+	/*src: url("../fonts/OpenDyslexic-Regular.otf");*/
+	/*font-family: "universal";*/
+	/*src: url("../fonts/Universal Serif.ttf");*/
+	font-family: "just";
+	src: url("../fonts/JustOldFashion.ttf");
+	/*font-family: "gaston";*/
+	/*src: url("../fonts/Ganton.otf");*/
+}
+@font-face {
+	font-family: "junction";
+	src: url("../fonts/Junction_02.ttf");
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+h2,
+h1,
+h3 {
+	text-align: center;
+	font-family: "just";
+}
+h2 {
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+section {
+	margin-bottom: 50px;
+}
+img {
+	width: 100%;
+}
+hr {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	border: 0;
+	border-top: 3px solid black;
+	width: 50%;
+}
+.text-justify {
+	text-align: justify;
+}
+.text-center {
+	text-align: center;
+}
+.font-petittitre {
+	font-family: "junction";
+}
+.colorR {
+	color: #ae32c9;
+	font-weight: 600;
+}
+.colorV {
+	color: #3c917d;
+	font-weight: 600;
+}
+.colorO {
+	color: #f56337;
+	font-weight: 600;
+}
+.colorJ {
+	color: #e0af28;
+	font-weight: 600;
+}
+.colorB {
+	color: #343e56;
+	font-weight: 600;
+}
+.text-header {
+	color: white;
+}
+.text-header p {
+	margin: 0;
+}
+.btn-primary {
+	background-color: #e0af28;
+	border-color: #e0af28;
+}
+.btn-primary:hover {
+	background-color: #3c917d;
+	border-color: #3c917d;
+}
