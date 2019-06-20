@@ -9,7 +9,6 @@
 	src: url("../fonts/JustOldFashion.ttf");
 	/*font-family: "gaston";*/
 	/*src: url("../fonts/Ganton.otf");*/
-
 }
 @font-face {
 	font-family: "junction";
@@ -43,7 +42,10 @@ hr {
 	border-top: 3px solid black;
 	width: 50%;
 }
-.fontBold{
+.text-justify {
+	text-align: justify;
+}
+.fontBold {
 	font-family: "junction";
 }
 .colorR {
@@ -66,10 +68,10 @@ hr {
 	color: #343e56;
 	font-weight: 600;
 }
-.textHeader{
+.textHeader {
 	color: white;
 }
-.textHeader p{
+.textHeader p {
 	margin: 0;
 }
 /****************** headers **********************/
@@ -99,17 +101,17 @@ hr {
 	background-size: cover;
 	height: 90vh;
 }
-.header .container-fluid{
+.header .container-fluid {
 	height: 100%;
 }
-.container-textHeader{
-height: 100%;
+.container-textHeader {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.logoHeaderHome{
+.logoHeaderHome {
 	width: 80%;
 }
 
@@ -126,7 +128,7 @@ height: 100%;
 .textHeaderL3 {
 	font-size: 20px;
 }
-.textHeader-paragraphe{
+.textHeader-paragraphe {
 	margin-bottom: 70px;
 }
 
@@ -137,8 +139,8 @@ height: 100%;
 .active {
 	border-bottom: solid 2px #f56337;
 }
-.logoNavbar{
-	width: 100px
+.logoNavbar {
+	width: 100px;
 }
 .containerNav {
 	border-bottom: solid 1px #ffffff;
@@ -207,28 +209,25 @@ height: 100%;
 	text-transform: uppercase;
 	font-size: 27px;
 }
-.jour1:hover {
+.row-jour1:hover .jour1 {
 	background-color: #ae32c9;
 }
-.jour1:hover .jourDate,
-.jour2:hover .jourDate,
-.jour3:hover .jourDate,
-.jour4:hover .jourDate {
+.row-jour1:hover .jour1 .jourDate,
+.row-jour2:hover .jour2 .jourDate,
+.row-jour3:hover .jour3 .jourDate,
+.row-jour4:hover .jour4 .jourDate {
 	border-top: solid 2px #fff;
 	border-bottom: solid 2px #fff;
 	color: #fff;
 }
-.jour2:hover {
+.row-jour2:hover .jour2 {
 	background-color: #3c917d;
-	color: #fff;
 }
-.jour3:hover {
+.row-jour3:hover .jour3 {
 	background-color: #f56337;
-	color: #fff;
 }
-.jour4:hover {
+.row-jour4:hover .jour4 {
 	background-color: #e0af28;
-	color: #fff;
 }
 .film {
 	height: 251px;
@@ -237,37 +236,37 @@ height: 100%;
 .programme {
 	line-height: 0;
 }
-.programmeUnJour button{
-	border:0;
+.programmeUnJour button {
+	border: 0;
 	padding: 0;
 }
-.effectMobile{
+.effectMobile {
 	text-align: center;
 	width: 100%;
 	padding: 10px 10px 20px 10px;
 	margin-bottom: 20px;
 }
-.effectMobile p{
-	 margin-bottom: 35px;
-	 font-size: 20px;
- }
-.effectMobile a{
+.effectMobile p {
+	margin-bottom: 35px;
+	font-size: 20px;
+}
+.effectMobile a {
 	font-size: 25px;
 	color: #000;
 }
-.jourR{
+.jourR {
 	border-bottom: solid 2px #ae32c9;
 	border-top: solid 3px #ae32c9;
 }
-.jourV{
+.jourV {
 	border-bottom: solid 2px #3c917d;
 	border-top: solid 3px #3c917d;
 }
-.jourO{
+.jourO {
 	border-bottom: solid 2px #f56337;
 	border-top: solid 3px #f56337;
 }
-.jourJ{
+.jourJ {
 	border-bottom: solid 2px #e0af28;
 	border-top: solid 3px #e0af28;
 }
@@ -279,22 +278,31 @@ height: 100%;
 	text-align: center;
 	margin-bottom: 20px;
 }
+.actualite-titre {
+	font-size: 22px;
+}
 .actualite:hover {
-	border: solid 3px #3c917d;
+	box-shadow: 0px 0px 0px 4px #3c917d;
 	text-align: center;
 }
-.actualite:hover .container-actualite-text{
-	background-color:#20b2aa6b;
-
+.actualite:hover .container-actualite-text {
+	background-color: #20b2aa6b;
+	border-bottom: solid 3px #3c917d00;
 }
-.container-actualite-text{
-	border-top:solid 3px #3c917d;
-	border-bottom:solid 3px #3c917d;
+.container-actualite-text {
+	border-top: solid 3px #3c917d;
+	border-bottom: solid 3px #3c917d;
+	padding: 10px 7px 0 7px;
+	min-height: 163px;
+	-webkit-transition: background-color 0.5s ease-out;
+	-moz-transition: background-color 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
 }
-.container-actualite-img{
+.container-actualite-img {
 	height: 300px;
 }
-.container-actualite-img img{
+.container-actualite-img img {
 	max-width: 100%;
 	min-height: 100%;
 }
@@ -309,6 +317,16 @@ height: 100%;
 .realisateur-texte {
 	text-align: center;
 }
+.realisateur img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.realisateur img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
 /****************** qui sommes nous **********************/
 .nous hr {
 	border-top: 3px solid #ae32c9;
@@ -316,6 +334,7 @@ height: 100%;
 .nous {
 	background-image: url("../images/Hnous.jpg");
 	background-size: cover;
+	padding: 30px;
 }
 .nous h2 {
 	color: #fff;
@@ -325,11 +344,13 @@ height: 100%;
 	color: #fff;
 	padding-bottom: 50px;
 }
-/****************** page résa **********************/
+/****************** page réservation **********************/
 .leFilm {
 	background-color: #f56337;
 	color: #fff;
 }
+/****************** page un film **********************/
+
 /*************** programme hover effect *****************/
 /********************************************************/
 .hovereffect {
@@ -446,28 +467,25 @@ footer {
 }
 /***************** médias query *********************/
 @media screen and (min-width: 450px) {
-
 }
 
 @media screen and (min-width: 768px) {
-
 	.navbar-nav {
 		flex-direction: row;
 	}
 	.effectMobile {
 		display: none;
 	}
-	.logoHeaderHome{
+	.logoHeaderHome {
 		width: 40%;
 	}
 	.container-textHeader p {
 		padding-left: 160px;
 	}
-	.effectMobile{
+	.effectMobile {
 		display: none;
 	}
 }
 
 @media screen and (min-width: 1440px) {
-
 }
