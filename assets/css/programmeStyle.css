@@ -64,10 +64,6 @@
 .row-jour4:hover .jour4 {
 	background-color: #e0af28;
 }
-.film {
-	height: 251px;
-	overflow: hidden;
-}
 .programme {
 	line-height: 0;
 }

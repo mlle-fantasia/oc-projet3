@@ -26,7 +26,8 @@
 .header {
 	background-image: url("../images/fondLibre.jpg");
 	background-size: cover;
-	height: 90vh;
+	min-height: 90vh;
+	margin-bottom: 50px;
 }
 .header .container-fluid {
 	height: 100%;
@@ -40,6 +41,7 @@
 }
 .logo-header-home {
 	width: 80%;
+	padding-top: 10%;
 }
 
 .container-text-header p {
