@@ -65,7 +65,17 @@
 	margin: 80px 0;
 }
 /****************** nav **********************/
+.navbar-light .navbar-toggler {
+	color:#fff;
+	border-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#fff;
+}
 .active {
+	color: #202635;
 	border-bottom: solid 2px #f56337;
 }
 .logo-navbar {
@@ -167,6 +177,9 @@
 .nous p {
 	color: #fff;
 	padding-bottom: 50px;
+}
+.nous-text{
+	font-size: 18px;
 }
 /****************** page réservation **********************/
 .leFilm {
