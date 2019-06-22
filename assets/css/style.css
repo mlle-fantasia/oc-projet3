@@ -101,6 +101,7 @@
 .actualite {
 	text-align: center;
 	margin-bottom: 20px;
+	height: 100%;
 }
 .actualite-titre {
 	font-size: 22px;
@@ -172,6 +173,15 @@
 	background-color: #f56337;
 	color: #fff;
 }
+/****************** page une actualité **********************/
+.image-article img{
+	width: 70%;
+}
+.image-article {
+	margin: 20px 0;
+	text-align: center;
+}
+
 /****************** footer **********************/
 footer {
 	background-color: #202635;

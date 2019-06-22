@@ -1,30 +1,20 @@
 @font-face {
-	/*font-family: "courier";*/
-	/*src: url("../fonts/CourierPrime.ttf");*/
-	/*font-family: "openDis";*/
-	/*src: url("../fonts/OpenDyslexic-Regular.otf");*/
-	/*font-family: "universal";*/
-	/*src: url("../fonts/Universal Serif.ttf");*/
-	font-family: "just";
-	src: url("../fonts/JustOldFashion.ttf");
-	/*font-family: "gaston";*/
-	/*src: url("../fonts/Ganton.otf");*/
-}
-@font-face {
-	font-family: "junction";
-	src: url("../fonts/Junction_02.ttf");
+	font-family: "ganton";
+	src: url("../fonts/Ganton.otf");
 }
 
+body{
+	font-family: "Times New Roman"
+}
 .container-fluid {
 	padding: 0;
 }
 
-h2,
-h1,
-h3 {
+h2,h1,h3 {
 	text-align: center;
-	font-family: "just";
+	font-family: "ganton";
 }
+
 h2 {
 	margin-bottom: 20px;
 	font-size: 40px;
@@ -48,9 +38,10 @@ hr {
 .text-center {
 	text-align: center;
 }
-.font-petittitre {
-	font-family: "junction";
+.text-bold{
+	font-weight: 600;
 }
+
 .colorR {
 	color: #ae32c9;
 	font-weight: 600;
