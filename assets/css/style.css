@@ -162,6 +162,9 @@
 	transform: scale(1.1);
 }
 /****************** qui sommes nous **********************/
+.apropoMaj{
+	text-transform: capitalize;
+}
 .nous hr {
 	border-top: 3px solid #ae32c9;
 }
