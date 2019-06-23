@@ -41,7 +41,18 @@ hr {
 .text-bold{
 	font-weight: 600;
 }
-
+hr.colorR{
+	border-top: 3px solid #ae32c9;
+}
+hr.colorV{
+	border-top: 3px solid #3c917d;
+}
+hr.colorO{
+	border-top: 3px solid #f56337;
+}
+hr.colorJ{
+	border-top: 3px solid #e0af28;
+}
 .colorR {
 	color: #ae32c9;
 	font-weight: 600;
@@ -71,6 +82,7 @@ hr {
 .btn-primary {
 	background-color: #e0af28;
 	border-color: #e0af28;
+	font-size: 20px;
 }
 .btn-primary:hover {
 	background-color: #3c917d;

@@ -197,7 +197,15 @@
 	margin: 20px 0;
 	text-align: center;
 }
-
+/****************** page un film **********************/
+.image-film-mobile{
+	display: block;
+	margin-bottom: 20px;
+}
+.image-film-desktop,
+.titre-film-mobile{
+	display:none;
+}
 /****************** footer **********************/
 footer {
 	background-color: #202635;
@@ -244,6 +252,13 @@ footer {
 	}
 	.realisateur-img {
 		width: 100%;
+	}
+	.image-film-mobile{
+		display: none;
+	}
+	.image-film-desktop,
+	.titre-film-mobile{
+		display:block;
 	}
 	.footer-nav a {
 		padding: 10px;
