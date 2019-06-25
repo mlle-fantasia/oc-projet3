@@ -45,28 +45,28 @@ hr.colorR{
 	border-top: 3px solid #ae32c9;
 }
 hr.colorV{
-	border-top: 3px solid #3c917d;
+	border-top: 3px solid #357e6d;
 }
 hr.colorO{
-	border-top: 3px solid #f56337;
+	border-top: 3px solid #d53a0b;
 }
 hr.colorJ{
-	border-top: 3px solid #e0af28;
+	border-top: 3px solid #937215;
 }
 .colorR {
 	color: #ae32c9;
 	font-weight: 600;
 }
 .colorV {
-	color: #3c917d;
+	color: #357e6d;
 	font-weight: 600;
 }
 .colorO {
-	color: #f56337;
+	color: #d53a0b;
 	font-weight: 600;
 }
 .colorJ {
-	color: #e0af28;
+	color: #937215;
 	font-weight: 600;
 }
 .colorB {
@@ -80,11 +80,11 @@ hr.colorJ{
 	margin: 0;
 }
 .btn-primary {
-	background-color: #e0af28;
-	border-color: #e0af28;
+	background-color: #937215;
+	border-color: #937215;
 	font-size: 20px;
 }
 .btn-primary:hover {
-	background-color: #3c917d;
-	border-color: #3c917d;
+	background-color: #357e6d;
+	border-color: #357e6d;
 }

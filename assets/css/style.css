@@ -76,7 +76,7 @@
 }
 .active {
 	color: #202635;
-	border-bottom: solid 2px #f56337;
+	border-bottom: solid 2px #d53a0b;
 }
 .logo-navbar {
 	width: 100px;
@@ -98,7 +98,7 @@
 }
 .nav-link:hover,
 .footer-nav a:hover {
-	border-bottom: solid 2px #3c917d;
+	border-bottom: solid 2px #357e6d;
 }
 .navbar-toggler,
 .navbar-toggler-icon {
@@ -106,7 +106,7 @@
 }
 /****************** actu **********************/
 #actualites hr {
-	border-top: 3px solid #3c917d;
+	border-top: 3px solid #357e6d;
 }
 .actualite {
 	text-align: center;
@@ -117,16 +117,16 @@
 	font-size: 22px;
 }
 .actualite:hover {
-	box-shadow: 0px 0px 0px 4px #3c917d;
+	box-shadow: 0px 0px 0px 4px #357e6d;
 	text-align: center;
 }
 .actualite:hover .container-actualite-text {
 	background-color: #20b2aa6b;
-	border-bottom: solid 3px #3c917d00;
+	border-bottom: solid 3px #357e6d00;
 }
 .container-actualite-text {
-	border-top: solid 3px #3c917d;
-	border-bottom: solid 3px #3c917d;
+	border-top: solid 3px #357e6d;
+	border-bottom: solid 3px #357e6d;
 	padding: 10px 7px 0 7px;
 	min-height: 163px;
 	-webkit-transition: background-color 0.5s ease-out;
@@ -141,7 +141,7 @@
 }
 /****************** les réalisateurs **********************/
 .realisateur hr {
-	border-top: 3px solid #f56337;
+	border-top: 3px solid #d53a0b;
 }
 .realisateur-img {
 	border-radius: 50%;
@@ -186,7 +186,7 @@
 }
 /****************** page réservation **********************/
 .leFilm {
-	background-color: #f56337;
+	background-color: #d53a0b;
 	color: #fff;
 }
 /****************** page une actualité **********************/

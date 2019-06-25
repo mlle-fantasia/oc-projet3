@@ -27,21 +27,21 @@
 	height: 100%;
 }
 .jour2 .jour-date {
-	color: #3c917d;
-	border-top: solid 2px #3c917d;
-	border-bottom: solid 2px #3c917d;
+	color: #357e6d;
+	border-top: solid 2px #357e6d;
+	border-bottom: solid 2px #357e6d;
 	height: 100%;
 }
 .jour3 .jour-date {
-	color: #f56337;
-	border-top: solid 2px #f56337;
-	border-bottom: solid 2px #f56337;
+	color: #d53a0b;
+	border-top: solid 2px #d53a0b;
+	border-bottom: solid 2px #d53a0b;
 	height: 100%;
 }
 .jour4 .jour-date {
-	color: #e0af28;
-	border-top: solid 2px #e0af28;
-	border-bottom: solid 2px #e0af28;
+	color: #937215;
+	border-top: solid 2px #937215;
+	border-bottom: solid 2px #937215;
 	height: 100%;
 }
 .jour-date h2 {
@@ -49,42 +49,40 @@
 	text-transform: uppercase;
 	font-size: 27px;
 }
-.row-jour1:hover .jour1 {
+.row-jour1 .jour1 {
 	background-color: #ae32c9;
 }
-.row-jour1:hover .jour1 .jour-date,
-.row-jour2:hover .jour2 .jour-date,
-.row-jour3:hover .jour3 .jour-date,
-.row-jour4:hover .jour4 .jour-date {
+.row-jour1 .jour1 .jour-date,
+.row-jour2 .jour2 .jour-date,
+.row-jour3 .jour3 .jour-date,
+.row-jour4 .jour4 .jour-date {
 	border-top: solid 2px #fff;
 	border-bottom: solid 2px #fff;
 	color: #fff;
 }
-.row-jour2:hover .jour2 {
-	background-color: #3c917d;
+.row-jour2 .jour2 {
+	background-color: #357e6d;
 }
-.row-jour3:hover .jour3 {
-	background-color: #f56337;
+.row-jour3 .jour3 {
+	background-color: #d53a0b;
 }
-.row-jour4:hover .jour4 {
-	background-color: #e0af28;
+.row-jour4 .jour4 {
+	background-color: #937215;
 }
 .programme {
 	line-height: 1;
 }
-.img-film {
-	margin-bottom: 20px;
-}
+
 .programme-un-jour button {
 	background-color: #ff000000;
 	border: 0;
 	padding: 0;
+	margin-bottom: 20px;
 }
 .programme-un-jour .effect-mobile {
 	text-align: center;
 	width: 100%;
-	padding: 10px 10px 20px 10px;
-	margin-bottom: 20px;
+	padding: 0;
 	height: 90%;
 }
 
@@ -96,21 +94,21 @@
 	font-size: 25px;
 	color: #000;
 }
-.jourR {
+.bordureR {
 	border-bottom: solid 2px #ae32c9;
 	border-top: solid 3px #ae32c9;
 }
-.jourV {
-	border-bottom: solid 2px #3c917d;
-	border-top: solid 3px #3c917d;
+.bordureV {
+	border-bottom: solid 2px #357e6d;
+	border-top: solid 3px #357e6d;
 }
-.jourO {
-	border-bottom: solid 2px #f56337;
-	border-top: solid 3px #f56337;
+.bordureO {
+	border-bottom: solid 2px #d53a0b;
+	border-top: solid 3px #d53a0b;
 }
-.jourJ {
-	border-bottom: solid 2px #e0af28;
-	border-top: solid 3px #e0af28;
+.bordureJ {
+	border-bottom: solid 2px #937215;
+	border-top: solid 3px #937215;
 }
 
 .film img {
@@ -119,14 +117,32 @@
 	-webkit-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 }
-.film img:hover {
+.film:hover img{
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+	z-index: 10;
 }
-
-.row-jour4 .film img:hover .row-jour4 .effect-mobile,
-.row-jour4 .film img:hover .row-jour4 .effect-mobile a {
-	background-color: #e0af28;
+.film:hover {
+	z-index: 10;
+}
+.row-jour1 .film:hover .jourR,
+.row-jour1 .film:hover .jourR a {
+	background-color: #ae32c9;
+	color: #fff;
+}
+.row-jour2 .film:hover .jourV,
+.row-jour2 .film:hover .jourV a {
+	background-color: #357e6d;
+	color: #fff;
+}
+.row-jour3 .film:hover .jourO,
+.row-jour3 .film:hover .jourO a {
+	background-color: #d53a0b;
+	color: #fff;
+}
+.row-jour4 .film:hover .jourJ,
+.row-jour4 .film:hover .jourJ a {
+	background-color: #937215;
 	color: #fff;
 }
 /*************** programme hover effect *****************/
@@ -221,3 +237,10 @@
 	}
 }
  */
+@media screen and (min-width: 768px) {
+	.programme-un-jour .effect-mobile {
+
+		padding: 20px;
+
+	}
+}
