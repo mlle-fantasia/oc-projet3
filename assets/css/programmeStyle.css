@@ -72,7 +72,7 @@
 .programme {
 	line-height: 1;
 }
-.row-image-film {
+.img-film {
 	margin-bottom: 20px;
 }
 .programme-un-jour button {
@@ -124,6 +124,11 @@
 	transform: scale(1.1);
 }
 
+.row-jour4 .film img:hover .row-jour4 .effect-mobile,
+.row-jour4 .film img:hover .row-jour4 .effect-mobile a {
+	background-color: #e0af28;
+	color: #fff;
+}
 /*************** programme hover effect *****************/
 /********************************************************/
 /* .hovereffect {
