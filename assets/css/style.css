@@ -66,13 +66,13 @@
 }
 /****************** nav **********************/
 .navbar-light .navbar-toggler {
-	color:#fff;
+	color: #fff;
 	border-color: #fff;
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .nav-link:hover{
-	color:#fff;
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
 }
 .active {
 	color: #202635;
@@ -162,7 +162,7 @@
 	transform: scale(1.1);
 }
 /****************** qui sommes nous **********************/
-.apropoMaj{
+.apropoMaj {
 	text-transform: capitalize;
 }
 .nous hr {
@@ -181,7 +181,7 @@
 	color: #fff;
 	padding-bottom: 50px;
 }
-.nous-text{
+.nous-text {
 	font-size: 18px;
 }
 /****************** page réservation **********************/
@@ -190,7 +190,7 @@
 	color: #fff;
 }
 /****************** page une actualité **********************/
-.image-article img{
+.image-article img {
 	width: 70%;
 }
 .image-article {
@@ -198,13 +198,13 @@
 	text-align: center;
 }
 /****************** page un film **********************/
-.image-film-mobile{
+.image-film-mobile {
 	display: block;
 	margin-bottom: 20px;
 }
 .image-film-desktop,
-.titre-film-mobile{
-	display:none;
+.titre-film-mobile {
+	display: none;
 }
 /****************** footer **********************/
 footer {
@@ -238,27 +238,24 @@ footer {
 	.navbar-nav {
 		flex-direction: row;
 	}
-	.effect-mobile {
+	/* .effect-mobile {
 		display: none;
-	}
+	} */
 	.logo-header-home {
 		width: 40%;
 	}
 	.container-text-header p {
 		padding-left: 160px;
 	}
-	.effect-mobile {
-		display: none;
-	}
 	.realisateur-img {
 		width: 100%;
 	}
-	.image-film-mobile{
+	.image-film-mobile {
 		display: none;
 	}
 	.image-film-desktop,
-	.titre-film-mobile{
-		display:block;
+	.titre-film-mobile {
+		display: block;
 	}
 	.footer-nav a {
 		padding: 10px;
