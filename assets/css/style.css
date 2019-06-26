@@ -189,6 +189,9 @@
 	background-color: #d53a0b;
 	color: #fff;
 }
+form{
+	padding-bottom: 50px;
+}
 /****************** page une actualité **********************/
 .image-article img {
 	width: 70%;
